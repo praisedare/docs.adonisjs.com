@@ -6,7 +6,7 @@ Edge provides a couple of options to debug the templates. The simplest one is th
 
 ## The `inspect` helper
 
-The `inspect` helper pretty prints the value in the same output. You can think of this method as Node.js `util.inspect`, but instead it output HTML vs writing the output to the console.
+The `inspect` helper pretty prints the value in the same output. You can think of this method as Node.js `util.inspect`, but instead it outputs HTML vs writing the output to the console.
 
 ```edge
 {{ inspect({
